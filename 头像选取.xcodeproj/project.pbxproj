@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2CF2D01D5957AE008BF9F2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2BE1D5957AE008BF9F2 /* AFHTTPRequestOperation.m */; };
+		EF2CF2D11D5957AE008BF9F2 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2C01D5957AE008BF9F2 /* AFHTTPRequestOperationManager.m */; };
+		EF2CF2D21D5957AE008BF9F2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2C21D5957AE008BF9F2 /* AFHTTPSessionManager.m */; };
+		EF2CF2D31D5957AE008BF9F2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2C51D5957AE008BF9F2 /* AFNetworkReachabilityManager.m */; };
+		EF2CF2D41D5957AE008BF9F2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2C71D5957AE008BF9F2 /* AFSecurityPolicy.m */; };
+		EF2CF2D51D5957AE008BF9F2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2C91D5957AE008BF9F2 /* AFURLConnectionOperation.m */; };
+		EF2CF2D61D5957AE008BF9F2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2CB1D5957AE008BF9F2 /* AFURLRequestSerialization.m */; };
+		EF2CF2D71D5957AE008BF9F2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2CD1D5957AE008BF9F2 /* AFURLResponseSerialization.m */; };
+		EF2CF2D81D5957AE008BF9F2 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF2CF1D5957AE008BF9F2 /* AFURLSessionManager.m */; };
+		EF7524971CFE65DB0081DAA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7524961CFE65DB0081DAA3 /* main.m */; };
+		EF75249A1CFE65DB0081DAA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7524991CFE65DB0081DAA3 /* AppDelegate.m */; };
+		EF75249D1CFE65DB0081DAA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75249C1CFE65DB0081DAA3 /* ViewController.m */; };
+		EF7524A01CFE65DB0081DAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF75249E1CFE65DB0081DAA3 /* Main.storyboard */; };
+		EF7524A21CFE65DB0081DAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7524A11CFE65DB0081DAA3 /* Assets.xcassets */; };
+		EF7524A51CFE65DB0081DAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7524A31CFE65DB0081DAA3 /* LaunchScreen.storyboard */; };
+		EF7524B01CFE65DB0081DAA3 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7524AF1CFE65DB0081DAA3 /* ____Tests.m */; };
+		EF7524BB1CFE65DB0081DAA3 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7524BA1CFE65DB0081DAA3 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7524AC1CFE65DB0081DAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF75248A1CFE65DB0081DAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7524911CFE65DB0081DAA3;
+			remoteInfo = "头像选取";
+		};
+		EF7524B71CFE65DB0081DAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF75248A1CFE65DB0081DAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7524911CFE65DB0081DAA3;
+			remoteInfo = "头像选取";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2CF2BD1D5957AE008BF9F2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EF2CF2BE1D5957AE008BF9F2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EF2CF2BF1D5957AE008BF9F2 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		EF2CF2C01D5957AE008BF9F2 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		EF2CF2C11D5957AE008BF9F2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EF2CF2C21D5957AE008BF9F2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		EF2CF2C31D5957AE008BF9F2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EF2CF2C41D5957AE008BF9F2 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EF2CF2C51D5957AE008BF9F2 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EF2CF2C61D5957AE008BF9F2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EF2CF2C71D5957AE008BF9F2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF2CF2C81D5957AE008BF9F2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		EF2CF2C91D5957AE008BF9F2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		EF2CF2CA1D5957AE008BF9F2 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		EF2CF2CB1D5957AE008BF9F2 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		EF2CF2CC1D5957AE008BF9F2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EF2CF2CD1D5957AE008BF9F2 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EF2CF2CE1D5957AE008BF9F2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		EF2CF2CF1D5957AE008BF9F2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EF7524921CFE65DB0081DAA3 /* 头像选取.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "头像选取.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7524961CFE65DB0081DAA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7524981CFE65DB0081DAA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7524991CFE65DB0081DAA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF75249B1CFE65DB0081DAA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF75249C1CFE65DB0081DAA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF75249F1CFE65DB0081DAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7524A11CFE65DB0081DAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7524A41CFE65DB0081DAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7524A61CFE65DB0081DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7524AB1CFE65DB0081DAA3 /* 头像选取Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "头像选取Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7524AF1CFE65DB0081DAA3 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		EF7524B11CFE65DB0081DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7524B61CFE65DB0081DAA3 /* 头像选取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "头像选取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7524BA1CFE65DB0081DAA3 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		EF7524BC1CFE65DB0081DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF75248F1CFE65DB0081DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524A81CFE65DB0081DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524B31CFE65DB0081DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2CF2BC1D5957AE008BF9F2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CF2BD1D5957AE008BF9F2 /* AFHTTPRequestOperation.h */,
+				EF2CF2BE1D5957AE008BF9F2 /* AFHTTPRequestOperation.m */,
+				EF2CF2BF1D5957AE008BF9F2 /* AFHTTPRequestOperationManager.h */,
+				EF2CF2C01D5957AE008BF9F2 /* AFHTTPRequestOperationManager.m */,
+				EF2CF2C11D5957AE008BF9F2 /* AFHTTPSessionManager.h */,
+				EF2CF2C21D5957AE008BF9F2 /* AFHTTPSessionManager.m */,
+				EF2CF2C31D5957AE008BF9F2 /* AFNetworking.h */,
+				EF2CF2C41D5957AE008BF9F2 /* AFNetworkReachabilityManager.h */,
+				EF2CF2C51D5957AE008BF9F2 /* AFNetworkReachabilityManager.m */,
+				EF2CF2C61D5957AE008BF9F2 /* AFSecurityPolicy.h */,
+				EF2CF2C71D5957AE008BF9F2 /* AFSecurityPolicy.m */,
+				EF2CF2C81D5957AE008BF9F2 /* AFURLConnectionOperation.h */,
+				EF2CF2C91D5957AE008BF9F2 /* AFURLConnectionOperation.m */,
+				EF2CF2CA1D5957AE008BF9F2 /* AFURLRequestSerialization.h */,
+				EF2CF2CB1D5957AE008BF9F2 /* AFURLRequestSerialization.m */,
+				EF2CF2CC1D5957AE008BF9F2 /* AFURLResponseSerialization.h */,
+				EF2CF2CD1D5957AE008BF9F2 /* AFURLResponseSerialization.m */,
+				EF2CF2CE1D5957AE008BF9F2 /* AFURLSessionManager.h */,
+				EF2CF2CF1D5957AE008BF9F2 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		EF7524891CFE65DB0081DAA3 = {
+			isa = PBXGroup;
+			children = (
+				EF7524941CFE65DB0081DAA3 /* 头像选取 */,
+				EF7524AE1CFE65DB0081DAA3 /* 头像选取Tests */,
+				EF7524B91CFE65DB0081DAA3 /* 头像选取UITests */,
+				EF7524931CFE65DB0081DAA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7524931CFE65DB0081DAA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7524921CFE65DB0081DAA3 /* 头像选取.app */,
+				EF7524AB1CFE65DB0081DAA3 /* 头像选取Tests.xctest */,
+				EF7524B61CFE65DB0081DAA3 /* 头像选取UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7524941CFE65DB0081DAA3 /* 头像选取 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CF2BC1D5957AE008BF9F2 /* AFNetworking */,
+				EF7524981CFE65DB0081DAA3 /* AppDelegate.h */,
+				EF7524991CFE65DB0081DAA3 /* AppDelegate.m */,
+				EF75249B1CFE65DB0081DAA3 /* ViewController.h */,
+				EF75249C1CFE65DB0081DAA3 /* ViewController.m */,
+				EF75249E1CFE65DB0081DAA3 /* Main.storyboard */,
+				EF7524A11CFE65DB0081DAA3 /* Assets.xcassets */,
+				EF7524A31CFE65DB0081DAA3 /* LaunchScreen.storyboard */,
+				EF7524A61CFE65DB0081DAA3 /* Info.plist */,
+				EF7524951CFE65DB0081DAA3 /* Supporting Files */,
+			);
+			path = "头像选取";
+			sourceTree = "<group>";
+		};
+		EF7524951CFE65DB0081DAA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7524961CFE65DB0081DAA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7524AE1CFE65DB0081DAA3 /* 头像选取Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7524AF1CFE65DB0081DAA3 /* ____Tests.m */,
+				EF7524B11CFE65DB0081DAA3 /* Info.plist */,
+			);
+			path = "头像选取Tests";
+			sourceTree = "<group>";
+		};
+		EF7524B91CFE65DB0081DAA3 /* 头像选取UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7524BA1CFE65DB0081DAA3 /* ____UITests.m */,
+				EF7524BC1CFE65DB0081DAA3 /* Info.plist */,
+			);
+			path = "头像选取UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7524911CFE65DB0081DAA3 /* 头像选取 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7524BF1CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取" */;
+			buildPhases = (
+				EF75248E1CFE65DB0081DAA3 /* Sources */,
+				EF75248F1CFE65DB0081DAA3 /* Frameworks */,
+				EF7524901CFE65DB0081DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "头像选取";
+			productName = "头像选取";
+			productReference = EF7524921CFE65DB0081DAA3 /* 头像选取.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7524AA1CFE65DB0081DAA3 /* 头像选取Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7524C21CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取Tests" */;
+			buildPhases = (
+				EF7524A71CFE65DB0081DAA3 /* Sources */,
+				EF7524A81CFE65DB0081DAA3 /* Frameworks */,
+				EF7524A91CFE65DB0081DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7524AD1CFE65DB0081DAA3 /* PBXTargetDependency */,
+			);
+			name = "头像选取Tests";
+			productName = "头像选取Tests";
+			productReference = EF7524AB1CFE65DB0081DAA3 /* 头像选取Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7524B51CFE65DB0081DAA3 /* 头像选取UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7524C51CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取UITests" */;
+			buildPhases = (
+				EF7524B21CFE65DB0081DAA3 /* Sources */,
+				EF7524B31CFE65DB0081DAA3 /* Frameworks */,
+				EF7524B41CFE65DB0081DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7524B81CFE65DB0081DAA3 /* PBXTargetDependency */,
+			);
+			name = "头像选取UITests";
+			productName = "头像选取UITests";
+			productReference = EF7524B61CFE65DB0081DAA3 /* 头像选取UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF75248A1CFE65DB0081DAA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "liu hunter";
+				TargetAttributes = {
+					EF7524911CFE65DB0081DAA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6ERP73L4DC;
+					};
+					EF7524AA1CFE65DB0081DAA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7524911CFE65DB0081DAA3;
+					};
+					EF7524B51CFE65DB0081DAA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7524911CFE65DB0081DAA3;
+					};
+				};
+			};
+			buildConfigurationList = EF75248D1CFE65DB0081DAA3 /* Build configuration list for PBXProject "头像选取" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7524891CFE65DB0081DAA3;
+			productRefGroup = EF7524931CFE65DB0081DAA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7524911CFE65DB0081DAA3 /* 头像选取 */,
+				EF7524AA1CFE65DB0081DAA3 /* 头像选取Tests */,
+				EF7524B51CFE65DB0081DAA3 /* 头像选取UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7524901CFE65DB0081DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7524A51CFE65DB0081DAA3 /* LaunchScreen.storyboard in Resources */,
+				EF7524A21CFE65DB0081DAA3 /* Assets.xcassets in Resources */,
+				EF7524A01CFE65DB0081DAA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524A91CFE65DB0081DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524B41CFE65DB0081DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF75248E1CFE65DB0081DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2CF2D01D5957AE008BF9F2 /* AFHTTPRequestOperation.m in Sources */,
+				EF75249D1CFE65DB0081DAA3 /* ViewController.m in Sources */,
+				EF2CF2D11D5957AE008BF9F2 /* AFHTTPRequestOperationManager.m in Sources */,
+				EF2CF2D31D5957AE008BF9F2 /* AFNetworkReachabilityManager.m in Sources */,
+				EF2CF2D71D5957AE008BF9F2 /* AFURLResponseSerialization.m in Sources */,
+				EF2CF2D51D5957AE008BF9F2 /* AFURLConnectionOperation.m in Sources */,
+				EF2CF2D41D5957AE008BF9F2 /* AFSecurityPolicy.m in Sources */,
+				EF2CF2D21D5957AE008BF9F2 /* AFHTTPSessionManager.m in Sources */,
+				EF2CF2D61D5957AE008BF9F2 /* AFURLRequestSerialization.m in Sources */,
+				EF2CF2D81D5957AE008BF9F2 /* AFURLSessionManager.m in Sources */,
+				EF75249A1CFE65DB0081DAA3 /* AppDelegate.m in Sources */,
+				EF7524971CFE65DB0081DAA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524A71CFE65DB0081DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7524B01CFE65DB0081DAA3 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7524B21CFE65DB0081DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7524BB1CFE65DB0081DAA3 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7524AD1CFE65DB0081DAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7524911CFE65DB0081DAA3 /* 头像选取 */;
+			targetProxy = EF7524AC1CFE65DB0081DAA3 /* PBXContainerItemProxy */;
+		};
+		EF7524B81CFE65DB0081DAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7524911CFE65DB0081DAA3 /* 头像选取 */;
+			targetProxy = EF7524B71CFE65DB0081DAA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF75249E1CFE65DB0081DAA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF75249F1CFE65DB0081DAA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7524A31CFE65DB0081DAA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7524A41CFE65DB0081DAA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7524BD1CFE65DB0081DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7524BE1CFE65DB0081DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7524C01CFE65DB0081DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "头像选取/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EF7524C11CFE65DB0081DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "头像选取/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EF7524C31CFE65DB0081DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "头像选取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/头像选取.app/头像选取";
+			};
+			name = Debug;
+		};
+		EF7524C41CFE65DB0081DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "头像选取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/头像选取.app/头像选取";
+			};
+			name = Release;
+		};
+		EF7524C61CFE65DB0081DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "头像选取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "头像选取";
+			};
+			name = Debug;
+		};
+		EF7524C71CFE65DB0081DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "头像选取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m2mkey.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "头像选取";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF75248D1CFE65DB0081DAA3 /* Build configuration list for PBXProject "头像选取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7524BD1CFE65DB0081DAA3 /* Debug */,
+				EF7524BE1CFE65DB0081DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7524BF1CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7524C01CFE65DB0081DAA3 /* Debug */,
+				EF7524C11CFE65DB0081DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7524C21CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7524C31CFE65DB0081DAA3 /* Debug */,
+				EF7524C41CFE65DB0081DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7524C51CFE65DB0081DAA3 /* Build configuration list for PBXNativeTarget "头像选取UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7524C61CFE65DB0081DAA3 /* Debug */,
+				EF7524C71CFE65DB0081DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF75248A1CFE65DB0081DAA3 /* Project object */;
+}
